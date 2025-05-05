@@ -17,8 +17,8 @@ Family friendly gag bot, endlessly customisable and perfect for irritating your 
 
 1. **Clone the repo** 
    ```bash
-   git clone https://github.com/you/annoyatron-3000.git
-   cd annoyatron-3000
+   git clone https://github.com/welthagenchristopher/GBOT
+   cd .../gbot
 
 2. **create a virtual environment**
     ```bash
@@ -39,7 +39,7 @@ Family friendly gag bot, endlessly customisable and perfect for irritating your 
     ```.env
     create your env file, with two arguments
     DISCORD_TOKEN=<your bot token>
-    TARGET_USER_ID=<plain UID of any user>
+    TARGET_USER_ID=<UID of any user>
 
 6. **Audio**
 
