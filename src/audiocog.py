@@ -46,7 +46,7 @@ class AudioCog(commands.Cog):
             if self._task:
                 self._task.cancel()
 
-            # 2 second delay loop
+            # 1 second delay loop
             self._task = self.bot.loop.create_task(self._repeat_play(vc, delay=1))
 
         # target leaves, disconnect
